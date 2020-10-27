@@ -7,7 +7,7 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Copyright>Copyright © 2016</Copyright>
     <Authors>Duo Security</Authors>
-    <Company>Duo Security</Company>
+    <Company>Duo Security, Inc.</Company>
   </PropertyGroup>
   <ItemGroup>
     <Content Include="..\js\Duo-Web-v2.js">
