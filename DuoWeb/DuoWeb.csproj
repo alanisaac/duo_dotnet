@@ -2,10 +2,17 @@
   <PropertyGroup>
     <RootNamespace>Duo</RootNamespace>
     <AssemblyName>DuoWeb</AssemblyName>
-    <TargetFramework>net3.5</TargetFramework>
+    <TargetFrameworks>net3.5;netstandard2.0</TargetFrameworks>
     <Copyright>Copyright © 2011</Copyright>
     <Authors>Duo Security</Authors>
     <Company>Duo Security, Inc.</Company>
     <Description>Duo Web SDK</Description>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="jnm2.ReferenceAssemblies.net35" Version="1.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
 </Project>

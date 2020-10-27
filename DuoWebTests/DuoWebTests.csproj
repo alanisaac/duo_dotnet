@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net4.5.2</TargetFramework>
+    <TargetFrameworks>net4.5.2;netcoreapp3.1</TargetFrameworks>
     <Copyright>Copyright © 2013</Copyright>
   </PropertyGroup>
   <ItemGroup>
